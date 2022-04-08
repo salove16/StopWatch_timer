@@ -51,15 +51,7 @@ import "./App.css";
 // }
 function App() {
   const [counter, setcount] = useState(0);
-  // const handleAdd = (value) => {
-  //   setcount(counter + value);
-  // };
-  // const handleReduce = (value) => {
-  //   if (counter <= 0) {
-  //     return;
-  //   }
-  //   setcount(counter - value);
-  // };
+ 
   const handleChange = (value) => {
     setcount(counter + value);
   };
