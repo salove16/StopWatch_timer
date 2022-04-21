@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-
+import "./App.css";
+import { InputData } from "./components/input";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-     
+      <h1 id="mainHeading">Food Restaurants</h1>
+      <InputData />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
