@@ -8,7 +8,12 @@ function App() {
   return (
     <div className="App">
 
-      <Button variant='primary'>hello</Button>
+      <Button variant='primary'>Primary Button</Button>
+      <Button>Default Button</Button>
+      <Button variant='dashed'>Dashed Button</Button>
+      <br />
+      <Button variant='text'>Text Button</Button>
+      <Button variant='link'>Link Button</Button>
      
     </div>
   )
