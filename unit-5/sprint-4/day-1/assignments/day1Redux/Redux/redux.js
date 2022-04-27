@@ -1,6 +1,6 @@
 import { legacy_createStore as createStore } from "redux";
 
-import {displayData} from "../index" 
+
 
 const ADD_TODO = "ADD_TODO";
 
@@ -18,13 +18,15 @@ const add_todo = (name, value) => {
 const reducer =(store,action)=>{
   // displayData(action)
 // console.log(store,new Date());
- if(action.type==="ADD_TODO")
+//  if(==="ADD_TODO")
+switch(action.type)
     {
-      
+      case ADD_TODO:
         return {...store,todos: [...store.todos,action.payload]}
+        default:return store
     }
     
-   return store
+   
 }
 
 
@@ -45,8 +47,8 @@ const store=createStore(reducer, insate)
 // displayData(store.getState())
 
 
-store.subscribe (()=>{
-  console.log("subscribe" , store.getState())
-})
+// store.subscribe (()=>{
+//   console.log("subscribe" , store.getState())
+// })
 
 export {store,add_todo}
