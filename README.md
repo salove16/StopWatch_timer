@@ -1,32 +1,32 @@
-Weather App
+#Weather App
 
 A mini Stop Watch Timer.Its a simple stopwatch with some fun functionality. Done this project using react vite
 Demo
 
-Demo Link :-https://stop-watch-timer-salove16.vercel.app/
+#Demo Link :-https://stop-watch-timer-salove16.vercel.app/
 
-START
-Clone the project
+#START
+##Clone the project
 
-step -1
+###step -1
   git clone https://github.com/salove16/StopWatch_timer.git
 
-step-2
+###step-2
 
 cd StopWatch_timer
   
-step-3 
+###step-3 
 
 npm i 
 
-Start the server
+###Start the server
 
 npm run dev
 
-Tech Stack
+#Tech Stack
 
 Client: HTML, CSS, JavaScript, React , vite, 
-Authors
+#Authors
 
-    Shashank Shalabh
+##Shashank Shalabh
 
