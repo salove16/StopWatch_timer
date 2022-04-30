@@ -25,7 +25,9 @@ npm run dev
 
 #Tech Stack
 
-Client: HTML, CSS, JavaScript, React , vite, 
+Client: HTML, CSS, JavaScript, React , vite
+
+
 #Authors
 
 ##Shashank Shalabh
